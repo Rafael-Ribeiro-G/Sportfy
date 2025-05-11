@@ -1,0 +1,63 @@
+/*É o tamanho das Imagens*/
+.logo{
+    width: 5%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*Estilizaçao do BODY do site*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma';
+    background: linear-gradient(black,#3533CD, black);
+}
+/*Estilização da DIV do header*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    padding-bottom: 75px;
+}
+.nome {
+    position: absolute;
+    top: 37px;
+    left: 90px;
+    color: white;
+    font-size: 20;
+    font-family: Tahoma;
+}
+/*Estilização do MENU do site*/
+nav{
+    position: absolute;
+    top: 22px;
+    right: 30px;
+}
+nav a{
+    display: inline;
+    color: white;
+    font-size: 20;
+    margin-right: 30;
+}
+footer {
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 100px 10px 10px 0;
+}
+footer p {
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 200px;
+    position:absolute;
+}
+.titulo {
+    font-family: Tahoma;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 100;
+}
+.email {
+    text-align: center;
+    margin-left: 1115px;
+    width: 50px;
+}
