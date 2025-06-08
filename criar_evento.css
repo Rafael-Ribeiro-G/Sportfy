@@ -1,0 +1,120 @@
+/*É o tamanho das Imagens*/
+.logo{
+    width: 5%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*Estilizaçao do BODY do site*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma';
+    background: linear-gradient(black,#3533CD, black);
+}
+/*Estilização da DIV do header*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.nome {
+    position: absolute;
+    top: 37px;
+    left: 90px;
+    color: white;
+    font-size: 20;
+    font-family: Tahoma;
+}
+/*Estilização do MENU do site*/
+nav{
+    position: absolute;
+    top: 22px;
+    right: 0px;
+}
+nav a{
+    display: inline;
+    color: white;
+    font-size: 20;
+    margin-right: 30;
+    text-decoration: none;
+}
+.quadrado {
+    width: 650px;
+    height: 450px;
+    background: linear-gradient(135deg,black, #808080);
+    font-size: 20px;
+    border-radius: 30px; 
+    margin-left: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.nos {
+    color: white;
+    font-family: Tahoma;
+    margin-top: 40px;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 55px;
+    margin-bottom: -10px;
+}
+.descricao {
+    color: white;
+    font-family: Tahoma;
+    text-align: center; 
+    font-size: 30px;  
+    margin-bottom: 20px;
+}
+.carac {
+    color: white;
+    font-family: Tahoma;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.quadro {
+    width: 630px;
+    height: 350px;
+    background: linear-gradient(315deg, #09033d, black);
+    border-radius: 30px;
+}
+.circulo {
+    width: 200px;
+    height: 200px;
+    background-color: #DBDBDB;
+    border-radius: 600px;
+    margin-left: 215px;
+    margin-top: 30px;
+    display: flex;
+}
+.mais {
+    font-size: 200px;
+    color: black;
+    font-family: Tahoma;
+    margin-left: 25px;
+    margin-top: -35px;
+}
+.foto {
+    color: white;
+    font-family: Tahoma;
+    font-size: 40px;
+    text-align: center;
+}
+.postar {
+    color: white;
+    font-family: Tahoma;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -17px;
+}
+.retangulo {
+    width: 620px;
+    height: 80px;
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 30px;
+}
